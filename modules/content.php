@@ -1,4 +1,5 @@
-  <div class="content">
+  	<div class="content">
+  		<div class="container">
         	<div class="content_left">
             	<?php
 					include('modules/left/list.php');
@@ -31,4 +32,5 @@
 				}
 			?>
         </div>
+	</div>
         <div class="clear"></div>

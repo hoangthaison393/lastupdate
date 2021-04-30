@@ -1,11 +1,19 @@
-   <div class="menu">
-        	<ul>
-            	<li><a href="shoppage.php">Trang chủ</a></li>
-                <li><a href="">Sản phẩm</a></li>
-                <li><a href="?quanly=dangkymoi">Đăng ký</a></li>
-                 <li><a href="?quanly=dangnhap">Đăng nhập</a></li>
-                 <li><a href="?quanly=dathang">Giỏ hàng</a></li>
-                <li><a href="">Tin tức </a></li>
-                <li><a href="">Liên hệ</a></li>
-            </ul>
+    <div id="navbar" class="mainmenu-area">
+        <div class="container">
+            <div class="row">
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- -->
+                        <li><a class="taskbar" href="shoppage.php">Shop me</a></li>
+                        <!-- -->
+                        <li><a class="taskbar" href="./index.php">Home</a></li>
+                        <li><a class="taskbar" href="?quanly=dangnhap">Login</a></li>
+                        <li><a class="taskbar" href="?quanly=dangkymoi">Register</a></li>
+                        <li><a class="taskbar" href="?quanly=dathang">Cart</a></li>
+                        <li><a class="taskbar" href="contactus.php">Contact Us</a></li>
+                        <li><a class="taskbar" href="aboutus.php">About Us</a></li>
+                    </ul>
+                </div>  
+            </div>
         </div>
+    </div>

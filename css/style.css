@@ -26,6 +26,10 @@
       background-color: black !important;
       color: white;
     }
+    .taskbar:focus{
+      background-color: rgb(254,209,1) !important;
+      color: white !important;
+    }
     .slide-content{
       margin-left: 15px;
     }
@@ -74,11 +78,13 @@
       margin-top: 60px !important;
     }
     .footer-top-area{
-      height: 300px;
+      height: 350px;
     }
-    .footer-top-area {background: none repeat scroll 0 0 #333;
+    .footer-top-area {
+      background: none repeat scroll 0 0 #333;
       color: #999;
-      padding: 35px 0 180px;}
+      padding: 35px 0 190px;
+      }
   .footer-about-us span {
       color: rgb(254, 209, 1);
   }
@@ -133,6 +139,7 @@
 }
 .copyright{
   cursor: context-menu;
+  padding-top: 10px;
 }
 .search-box{
   margin-top: 35px;
@@ -182,10 +189,6 @@
 position: fixed;
 top: 0;
 width: 100%;
-}
-.taskbar:focus{
-background-color: rgb(254,209,1) !important;
-color: white !important;
 }
 .productimg{
   width: 168px;

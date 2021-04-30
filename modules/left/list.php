@@ -4,7 +4,7 @@
 ?>
 <div class="box_list">
             <div class="tieude">
-            	<h3>Loại phụ kiện</h3>
+            	<p>Đồ điện</p>
             </div>
             	<ul class="list">
                 <?php
@@ -15,14 +15,14 @@
 				}
 				  ?>
                 </ul>
-                </div><!--Ket thuc div box loai phu kien -->
+                </div><!--Ket thuc div box loai mat hang -->
                <?php
 	$sql_hieu="select * from hieusp order by idhieusp asc";
 	$row_hieu=mysqli_query($conn, $sql_hieu);
 ?>
                 <div class="box_list">
             <div class="tieude">
-            	<h3>Thương hiệu</h3>
+            	<p>Nhà sản xuất</p>
             </div>
             	<ul class="list">
                 <?php
@@ -37,7 +37,7 @@
                  <div class="box_list">
                  
                    <div class="tieude">
-            	<h3>Hàng bán chạy</h3>
+            	<p>Hàng bán chạy</p>
             		</div>
                     <?php
 					$sql_banchay=mysqli_query($conn, "select * from sanpham order by idsanpham desc limit 8");
@@ -48,8 +48,8 @@
 				while($dong_banchay=mysqli_fetch_array($sql_banchay)){
 				?>
                 	<li><a href="?quanly=chitietsp&idloaisp=<?php echo $dong_banchay['loaisp'] ?>&id=<?php echo $dong_banchay['idsanpham'] ?>">
-                    	<img src="admincp/modules/quanlysanpham/uploads/<?php echo $dong_banchay['hinhanh'] ?>" width="150" height="150" />
-                    	<p><?php echo $dong_banchay['tensp'] ?></p>
+                    	<img src="admincp/modules/quanlysanpham/uploads/<?php echo $dong_banchay['hinhanh'] ?>" width="150" height="150" style="padding-top: 10px"/>
+                    	<p style="padding-top:15px"><?php echo $dong_banchay['tensp'] ?></p>
                         <p style="color:red;"><?php echo number_format($dong_banchay['giadexuat']).' '.'VNĐ' ?></p>
                     </a></li>
                     <?php
@@ -63,7 +63,7 @@
 					
 				 ?>
                    <div class="tieude">
-            	<h3>Tin tức sản phẩm</h3>
+            	<p>Tin tức sản phẩm</p>
             		</div>
             	<ul class="tintucsp">	
                 <?php

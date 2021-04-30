@@ -31,14 +31,16 @@
                         <div class="box_info">
                          <form action="update_cart.php?id=<?php echo $dong['idsanpham'] ?>" method="post" enctype="multipart/form-data">
                         	<p>
-                            	<strong>Tên sản phẫm: </strong><em style="color:red"><?php echo $dong['tensp'] ?></em></p>
+                            	<strong>Tên sản phẫm: <em style="color:red"><?php echo $dong['tensp'] ?></em></strong></p>
 
                                            <p><strong>Mã sản phẩm:</strong>  <?php echo $dong['masp'] ?> </p> 
                                            <p><strong>Giá bán:</strong><span style="color:red;"> <?php echo number_format($dong['giadexuat']).' '.'VNĐ'?></span></p> 
                                            <p style="text-decoration:underline;color:blue;"><strong> Tình trạng:</strong> Còn hàng </p> 
-                                          
-                                           <p><strong>Số lượng:</strong><input type="text" name="soluong" size="3" value="1" /></p>
-                                           	 <input type="submit" name="add_to_cart" value="Mua hàng" style="margin:10px;width:100px;height:40px;background:#9F6;color:#000;font-size:18px;border-radius:8px;" />
+                                           <p><strong>Số lượng:</strong><input type="number" name="soluong" size="3" value="1" /></p>
+                                           	<input type="submit" name="add_to_cart" value="ADD TO CART" 
+											style="margin:10px;width:170px;height:40px;
+													background:#34a853;color:#fff;
+													font-size:18px;border-radius:9px; border: 1px solid #fff" />
                                              
                            </form>              
                                        
