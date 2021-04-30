@@ -8,46 +8,6 @@
 .clear{
 	clear:both;
 }
-.wrapper{
-	width:1000px;
-	height:auto;
-	
-	margin:auto;
-	
-}
-.header{
-	width:100%;
-	height:200px;
-	
-}
-.menu{
-	width:100%;
-	height:40px;
-	margin-top:2px;
-	background:#C40C42;
-}
-.menu ul {
-	width:100%;
-	height:40px;
-	list-style:none;
-	padding-left:10px;
-}
-.menu ul li{
-	float:left;
-	line-height:40px;
-	text-align:center;
-	width:80px;
-	height:40px;
-}
-.menu ul li a{
-	text-decoration:none;
-	color:#fff;
-	font-size:18px;
-	display:block;
-}
-.menu ul li:hover{
-	background:#39F;
-}
 
 .content{
 	width:100%;
@@ -73,12 +33,12 @@
 .hangbanchay li{
 	width:100%;
 	height:auto;
-	border-bottom:1px dashed #30C;
+	border-bottom:1px solid rgb(192, 191, 191);
 	margin:auto;
 	
 }
 .hangbanchay li:hover{
-	background:#C40C42;
+	background:#F2F2F2;
 	
 }
 .hangbanchay a{
@@ -87,8 +47,11 @@
 }
 .hangbanchay p{
 	padding:5px;
-	color:skyblue;
+	color:black;
 	font-weight:bold;
+}
+.hangbanchay p:hover{
+	color:#b03134;
 }
 .tintucsp{
 	width:100%;
@@ -107,19 +70,20 @@
 	color:#000;
 	font-size:18px;
 }
-.tintucsp li:hover{
-	background:#C40C42;
-	
+.tintucsp li:hover, .tintucsp li>a:hover {
+	background:#F2F2F2;
+	color: #b03134;
 }
+
 .tieude{
 	width:auto;
-	height:40px;
-	background:#C40C42;
-	font-size:20px;
+	height:58px;
+	background:#efb12c;
+	font-size:25px;
 	text-align:center;
 	padding:5px;
 	color:#fff;
-	line-height:40px;
+	line-height:50px;
 }
 .box_list{
 	width:98%;
@@ -135,7 +99,7 @@
 }
 .list li{
 	width:auto;
-	height:20px;
+	height:30px;
 	padding-left:10px;
 	padding-top:5px;
 	background:#F2F2F2;
@@ -146,8 +110,9 @@
 	color:#000;
 	display:block;
 }
-.list li:hover{
-	background:#C40C42;
+.list li:hover, .list li>a:hover{
+	background:#b03134;
+	color: white;
 }
 .content_right{
 	width:71%;
@@ -182,21 +147,14 @@
 	text-decoration:none;
 }
 .product li:hover{
-	background:#C40C42;
+	background:#F2F2F2;
 }
 .product p{
-	padding-top:2px;
+	padding-top:1px;
 	color:#000;
 	font-size:18px;
-	
 }
-.footer{
-	width:100%;
-	height:120px;
-	border:1px solid #000;
-	background:#C40C42;
-	margin-top:5px;
-}
+
 /* chi tiet san pham*/
 .box_chitietsp{
 	width:98%;
@@ -266,7 +224,7 @@
 	display:block;
 }
 .button_dathang:hover{
-	background:#C40C42;
+	background:#1d1d1b;
 }
 .sanphamlienquan{
 	width:100%;
@@ -383,15 +341,15 @@
 	list-style-type:none;
 	display:inline-block;
 	padding:10px 20px;
-	background:#C40C42;
+	background:#4285f4;
 	border-radius:10px 10px 0 0;
 	color:#fff;
 	font-weight:200;
 	cursor:pointer;
 }
 .tabs_panel ul li.active{
-	color:#000;
-	background:#9F0;
+	color:#fff;
+	background:#ea4335;
 }
 .tabs_panel .panel{
 	display:none;

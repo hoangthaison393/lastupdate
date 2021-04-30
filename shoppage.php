@@ -1,12 +1,23 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
-<link rel="stylesheet" type="text/css" href="style.css" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Website phụ kiện điện thoại</title>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web bán đồ điện gia dụng</title>   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">  
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet'>
+	<link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/slider.css">
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
+
+
 <body>
-	<div class="wrapper">
     	<?php
 		session_start();
 			include('admincp/modules/config.php');
@@ -15,11 +26,10 @@
 			include('modules/content.php');
 			include('modules/footer.php');
 		?>
-     <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
-	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="js/tabs.js"></script>
-
-      
-        </div>
+    <script src="js/jquery-3.2.1.js"></script>
+	<script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/tabs.js"></script>
 </body>
+<script src="./js1/sticky.js"></script>
+<script src="./js1/bookmark.js"></script>  
 </html>

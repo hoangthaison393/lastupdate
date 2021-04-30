@@ -10,9 +10,7 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="./shopme.css">
-    <link rel="stylesheet" href="./css/styleneed.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/product.css">
     <link rel="stylesheet" href="./css/slider.css">
     <script src="https://code.jquery.com/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
